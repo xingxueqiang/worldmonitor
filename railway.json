@@ -3,11 +3,12 @@
   "build": {
     "builder": "NIXPACKS",
     "buildConfig": {
-      "nodeVersion": "20"
+      "nodeVersion": "20",
+      "rootDir": "relay"
     }
   },
   "deploy": {
-    "startCommand": "cd relay && npm start",
+    "startCommand": "node server.js",
     "healthcheckPath": "/health",
     "healthcheckTimeout": 100,
     "restartPolicyType": "ON_FAILURE",
