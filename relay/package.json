@@ -1,0 +1,14 @@
+{
+  "name": "worldmonitor-relay",
+  "version": "1.0.0",
+  "description": "WorldMonitor RSS and Yahoo Finance Relay Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["relay", "rss", "yahoo-finance", "proxy"],
+  "license": "AGPL-3.0-only"
+}

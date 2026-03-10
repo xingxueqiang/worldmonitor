@@ -2,7 +2,7 @@
 nixPkgs = ["nodejs_20"]
 
 [phases.install]
-cmds = ["npm install --include=dev"]
+cmds = ["cd relay && npm install"]
 
 [start]
-cmd = "node scripts/ais-relay.cjs"
+cmd = "cd relay && npm start"
